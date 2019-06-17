@@ -8,6 +8,6 @@ public class App
     public static void main( String[] args )
     {
         System.out.println( "Hello World!" );
-        Log.info("This is sample information logs");
+        Log.info("This is sample information logs test");
     }
 }
