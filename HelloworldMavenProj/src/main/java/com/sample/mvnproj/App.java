@@ -1,6 +1,8 @@
 package com.sample.mvnproj;
 
+import java.util.List;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Date;
 
 import org.slf4j.Logger;
@@ -20,5 +22,15 @@ public class App
         System.out.println(date);
         
         Log.info("Current date:"+date);
+        List<String> listObject = new ArrayList<String>();
+        listObject.add("per1");
+        listObject.add("per2");
+        listObject.add("per3");
+        listObject.add("per4");
+        listObject.add("per5");
+        
+        for(String item : listObject) {
+        	System.out.println("output::"+item);
+        }
     }
 }
