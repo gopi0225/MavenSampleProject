@@ -21,7 +21,7 @@ public class App
         String date = simpleDateFormat.format(new Date());
         System.out.println(date);
         
-        Log.info("Current date:"+date);
+        Log.info("Current date(today):"+date);
         List<String> listObject = new ArrayList<String>();
         listObject.add("per1");
         listObject.add("per2");
